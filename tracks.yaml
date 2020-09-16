@@ -18,11 +18,11 @@ tracks:
     name: eiquadprog
     patches: null
     release_inc: '1'
-    release_repo_url: https://github.com/Rascof/eiquadprog-release.git
+    release_repo_url: https://github.com/stack-of-tasks/eiquadprog-ros-release.git
     release_tag: v:{version}
     ros_distro: eloquent
     vcs_type: git
-    vcs_uri: https://github.com/Rascof/eiquadprog
+    vcs_uri: https://github.com/stack-of-tasks/eiquadprog.git
     version: :{auto}
   foxy:
     actions:
@@ -43,11 +43,11 @@ tracks:
     name: eiquadprog
     patches: null
     release_inc: '1'
-    release_repo_url: https://github.com/Rascof/eiquadprog-release.git
+    release_repo_url: https://github.com/stack-of-tasks/eiquadprog-ros-release.git
     release_tag: v:{version}
     ros_distro: foxy
     vcs_type: git
-    vcs_uri: https://github.com/Rascof/eiquadprog
+    vcs_uri: https://github.com/stack-of-tasks/eiquadprog.git
     version: :{auto}
   melodic:
     actions:
@@ -67,12 +67,12 @@ tracks:
     last_version: 1.2.1
     name: eiquadprog
     patches: null
-    release_inc: '2'
-    release_repo_url: https://github.com/Rascof/eiquadprog-release.git
+    release_inc: '1'
+    release_repo_url: https://github.com/stack-of-tasks/eiquadprog-ros-release.git
     release_tag: v:{version}
     ros_distro: melodic
     vcs_type: git
-    vcs_uri: https://github.com/Rascof/eiquadprog
+    vcs_uri: https://github.com/stack-of-tasks/eiquadprog.git
     version: :{auto}
   noetic:
     actions:
@@ -93,9 +93,9 @@ tracks:
     name: eiquadprog
     patches: null
     release_inc: '1'
-    release_repo_url: https://github.com/Rascof/eiquadprog-release.git
+    release_repo_url: https://github.com/stack-of-tasks/eiquadprog-ros-release.git
     release_tag: v:{version}
     ros_distro: noetic
     vcs_type: git
-    vcs_uri: https://github.com/Rascof/eiquadprog
+    vcs_uri: https://github.com/stack-of-tasks/eiquadprog.git
     version: :{auto}
