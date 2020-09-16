@@ -1,0 +1,12 @@
+Source: ros-melodic-eiquadprog
+Section: misc
+Priority: optional
+Maintainer: Olivier Stasse <ostasse@laas.fr>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roscpp
+Homepage: git@github.com:stack-of-tasks/eiquadprog.git
+Standards-Version: 3.9.2
+
+Package: ros-melodic-eiquadprog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-roscpp
+Description: Eiquadprog a QP solver using active sets
